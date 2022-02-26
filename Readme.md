@@ -1,3 +1,3 @@
 Clone of twiiter homepage using HTML and CSS only
 
-Started by @donn7x
+Started by [Donne Dieu](https://github.com/donn7x)
