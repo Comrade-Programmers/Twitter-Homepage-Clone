@@ -97,19 +97,17 @@ h2 {
 .right-side input[value="Sign up"] {
     background-color: #1d9bf0;
     color: white;
-
+    border: none;
 }
 
 .right-side input[value="Log in"] {
     background-color: black;
     color: #1d9bf0;
-   
+    border: 1px solid gray;
 }    
 
 .right-side input[value="Sign up"]:hover {
-    background-color: #1d9cf0cb;
-    
-
+  background-color: #1d9cf0cb;
 }
 
 .right-side input[value="Log in"]:hover {
@@ -120,6 +118,7 @@ h2 {
 
 footer {
     margin: auto;
+    padding: 12px 16px;
 }
 
 footer a, span {
