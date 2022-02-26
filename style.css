@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: #d9d9d9;
+    margin: 0px 0px 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    
+}
+
+/* style for screens 900px and less  for responsiveness*/
+@media (max-width: 900px) {
+    #main-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-image {
+        width: 320px;
+        height: 400px;
+    }
+    
+}
+
+
+
+.left-image {
+    width: 830px;
+}
+
+.right-side {
+    padding: 25px;
+   
+}
+
+.logo {
+    width: 70px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 31px;
+    font-weight: 700;
+}
+
+
+.right-side input {
+    display: block;
+    width: 300px;
+    margin: 14px 0px;
+    border-radius: 17px;
+    height: 40px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.right-side input[value="Sign up"] {
+    background-color: #1d9bf0;
+    color: white;
+
+}
+
+.right-side input[value="Log in"] {
+    background-color: black;
+    color: #1d9bf0;
+   
+}    
+
+.right-side input[value="Sign up"]:hover {
+    background-color: #1d9cf0cb;
+    
+
+}
+
+.right-side input[value="Log in"]:hover {
+    background-color: rgba(69, 69, 122, 0.192)
+   
+}    
+
+
+footer {
+    margin: auto;
+}
+
+footer a, span {
+    color: #6e767d;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer a {
+    margin-left: 7px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
